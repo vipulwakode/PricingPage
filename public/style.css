@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading {
+    color: rgb(85, 47, 255);
+}
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title {
+    text-align: center;
+}
+.title p {
+    font-size: x-large;
+}
+body {
+    background: #eee;
+    padding: 0 16px;
+}
+.container-fluid{
+    margin-top: 20px;
+}
+.col-lg-4,.col-md-6 .col-sm-12 {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    height: 480px;
+    word-break: break-word;
+    text-transform: capitalize;
+    background-color: aqua;
+    line-height: 2em;
+    text-overflow: clip;
+}
+@media screen and (min-width:992px) and (max-width:1094px){
+   .col-lg-4 {
+    height: 580px;
+   }
+}
+.price {
+    padding-top: 10px;
+}
+.blockquote {
+    color: rgb(164, 46, 10);
+    text-shadow: rgb(185, 176, 184);
+    font-size: 100px;
+}
+.animated-border-button {
+  background-color: #0d3ef0;
+  border: none;
+  color: #dbd4d4;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 60px;
+  height: 30px;
+  text-overflow: clip;
+  margin-left: 20px;
+  position: relative;
+}
+
+.animated-border-button::before,
+.animated-border-button::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+
+.animated-border-button::before {
+  border-top: 2px solid #263059;
+  right: 0;
+  top: -4px;
+}
+
+.animated-border-button::after {
+  border-bottom: 2px solid #263059;
+  bottom: -4px;
+  left: 0;
+}
+
+.animated-border-button:hover::before,
+.animated-border-button:hover::after {
+  width: 100%;
+}
+.payment {
+    width: 1000px;
+    height: 500px;
+    margin-top: 20px;
+    background-image: url("https://post.healthline.com/wp-content/uploads/2020/08/anoscopy_thumb-732x549.jpg");
+}
+.thanks {
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+}

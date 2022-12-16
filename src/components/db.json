@@ -1,0 +1,66 @@
+[
+    {
+      "id":"1",
+      "planname":"premium care",
+      "planbenefits":["whatsup group:8am-11pm","basic medical queries:unlimited","private chat:with dedicated pediatrician",
+         "video consultations:6 free consultations(Pediatrician/ Gynaecologist/ Nutritionists/ Lactation)","Additional Consultations: 20% Discount",
+         "Growth tracking for baby: Monthly"],
+      "planvaliditywithprice":
+      [ {
+         "planduration":"1 month",
+         "price":"549 rs"
+        },
+        {
+          "planduration":"3 month",
+          "price":"1599 rs"
+        },
+        {
+          "planduration":"6 month",
+          "price":"2999 rs"
+        }
+      ]
+    },
+    {
+      "id":"2",
+      "planname":"basic access+",
+      "planbenefits":["whatsup group:8am-11pm","basic medical queries:unlimited","private chat:NA",
+         "video consultations:2 free consultations(Pediatrician only)","Additional Consultations: 20% Discount",
+         "Growth tracking for baby: not included"],
+      "planvaliditywithprice":
+      [ {
+         "planduration":"1 month",
+         "price":"349 rs"
+        },
+        {
+          "planduration":"3 month",
+          "price":"999 rs"
+        },
+        {
+          "planduration":"6 month",
+          "price":"1999 rs"
+        }
+      ]
+    },
+    {
+      "id":"3",
+      "planname":"basic access",
+      "planbenefits":["whatsup group:8am-11pm","basic medical queries:unlimited","private chat:NA",
+         "video consultations:No free consultations","Additional Consultations: 20% Discount",
+         "Growth tracking for baby: Not included"],
+      "planvaliditywithprice":
+      [ {
+         "planduration":"1 month",
+         "price":"199 rs"
+        },
+        {
+          "planduration":"3 month",
+          "price":"549 rs"
+        },
+        {
+          "planduration":"6 month",
+          "price":"1099 rs"
+        }
+      ]
+    }
+   
+]
